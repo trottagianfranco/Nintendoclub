@@ -1,0 +1,51 @@
+.banner-contacto {
+  margin-top: 10rem;
+}
+
+.contacto__title {
+  color: $colorPrincipal;
+  font-family: $fuentePrincipal;
+  font-size: 6rem;
+}
+.barra-contacto {
+  color: $colorPrincipal;
+}
+.horario {
+  .horario__title {
+    color: $colorgris;
+    font-family: $fuentePrincipal;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .horario__text {
+    color: $colorgris;
+    font-family: $fuentePrincipal;
+    font-size: 1.3rem;
+  }
+  .wpp-contacto {
+    margin-right: 2rem;
+  }
+}
+.formulario {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.mario-vertical {
+  width: 12rem;
+}
+
+.consulta {
+  color: $colorPrincipal;
+  font-family: $fuentePrincipal;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+// titulo contacto
+@media (max-width: 717px) {
+  .contacto__title {
+    font-size: 4rem;
+    padding-top: 5rem;
+  }
+}

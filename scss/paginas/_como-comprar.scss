@@ -1,0 +1,37 @@
+.comprar__title {
+  margin-top: 12rem;
+  font-family: $fuentePrincipal;
+  font-size: 4rem;
+  font-weight: 700;
+  color: $colorPrincipal;
+}
+.barra-comprar {
+  color: $colorPrincipal;
+}
+.barra-comprar2 {
+  margin-top: 6rem;
+  color: $colorPrincipal;
+}
+// CARDS
+.card-comprar {
+  margin-top: 6rem;
+}
+.card-body-comprar {
+  margin-top: 2rem;
+  .card-title {
+    color: white;
+  }
+  .card-text {
+    color: white;
+  }
+}
+// iframe google maps
+.ubicacion {
+  padding-top: 10rem;
+  iframe {
+    margin: 0 0 0 0;
+  }
+}
+.personajes1 {
+  padding-top: 9.8rem;
+}

@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.banner {
+  background-color: #eb0d0d;
+  margin-top: 8rem;
+  padding: 1rem 0rem;
+}
+.banner .banner__text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.banner .title-uno {
+  font-size: 3rem;
+}
+.banner .title-dos {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.banner .title-tres {
+  font-size: 2rem;
+}
+
+.emblema {
+  width: 13rem;
+}
+
+.principal {
+  padding-top: 11rem;
+  padding-bottom: 8rem;
+  font-family: "Roboto", sans-serif;
+}
+.principal .principal__title {
+  font-size: 5rem;
+  color: #eb0d0d;
+  padding-top: 2rem;
+  font-weight: 700;
+}
+.principal .principal__titledos {
+  padding-top: 4.4rem;
+  font-size: 2rem;
+}
+.principal .principal__text {
+  padding-top: 5.5rem;
+  font-size: 1.2rem;
+}
+.principal .principal__online {
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+.principal .principal__online-text {
+  padding-top: 5.5rem;
+  font-size: 1.2rem;
+}
+
+/* carousel */
+.sectionCarousel {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* media quaries carousel */
+@media (min-width: 1656px) {
+  .carousel-item {
+    height: 100vh;
+  }
+}
+@media (max-width: 1656px) {
+  .carousel-item {
+    margin-top: 6rem;
+  }
+}
+@media (max-width: 767px) {
+  .emblema-mario {
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 4rem;
+  }
+}
+.footer {
+  background-color: #eb0d0d;
+}
+.footer .footer__text {
+  color: white;
+}
+.footer ul {
+  list-style: none;
+  margin-bottom: 1.4rem;
+}
+.footer ul .wpp {
+  margin-right: 4rem;
+}
+
+.navbar {
+  box-shadow: 0px 0px 15px #5d5c5c;
+}
+.navbar .navbar__logo .navbar__logo-img {
+  width: 15rem;
+}
+
+.banner-mario {
+  margin-top: 10rem;
+}
+
+.barra {
+  color: #fff;
+}
+
+.productos {
+  background-color: #ff5353;
+  padding-bottom: 20px;
+}
+
+.productos__title {
+  padding-top: 5rem;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.productos-container {
+  margin-top: 110px !important;
+}
+.productos-container .card-game {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.card-game:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+}
+
+.comprar {
+  background-color: #eb0d0d;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.comprar span {
+  letter-spacing: 2px;
+}
+
+.comprar:hover {
+  opacity: 0.8;
+}
+
+.precio {
+  color: #eb0d0d;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.banner-contacto {
+  margin-top: 10rem;
+}
+
+.contacto__title {
+  color: #eb0d0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+}
+
+.barra-contacto {
+  color: #eb0d0d;
+}
+
+.horario .horario__title {
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.horario .horario__text {
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+.horario .wpp-contacto {
+  margin-right: 2rem;
+}
+
+.formulario {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.mario-vertical {
+  width: 12rem;
+}
+
+.consulta {
+  color: #eb0d0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 717px) {
+  .contacto__title {
+    font-size: 4rem;
+    padding-top: 5rem;
+  }
+}
+.comprar__title {
+  margin-top: 12rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #eb0d0d;
+}
+
+.barra-comprar {
+  color: #eb0d0d;
+}
+
+.barra-comprar2 {
+  margin-top: 6rem;
+  color: #eb0d0d;
+}
+
+.card-comprar {
+  margin-top: 6rem;
+}
+
+.card-body-comprar {
+  margin-top: 2rem;
+}
+.card-body-comprar .card-title {
+  color: white;
+}
+.card-body-comprar .card-text {
+  color: white;
+}
+
+.ubicacion {
+  padding-top: 10rem;
+}
+.ubicacion iframe {
+  margin: 0 0 0 0;
+}
+
+.personajes1 {
+  padding-top: 9.8rem;
+}
+
+.faq {
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  background-color: #ff5d5d;
+}
+.faq .accordion-item {
+  margin-top: 3rem;
+  background-color: #eb0d0d;
+  border-radius: 20px;
+}
+.faq .faq-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */

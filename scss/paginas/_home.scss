@@ -1,0 +1,77 @@
+// banner
+.banner {
+  background-color: #eb0d0d;
+  margin-top: 8rem;
+  padding: 1rem 0rem;
+  .banner__text {
+    color: white;
+    font-family: $fuentePrincipal;
+  }
+  .title-uno {
+    font-size: 3rem;
+  }
+  .title-dos {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  .title-tres {
+    font-size: 2rem;
+  }
+}
+.emblema {
+  width: 13rem;
+}
+// Principal texto
+.principal {
+  padding-top: 11rem;
+  padding-bottom: 8rem;
+  font-family: $fuentePrincipal;
+  .principal__title {
+    font-size: 5rem;
+    color: $colorPrincipal;
+    padding-top: 2rem;
+    font-weight: 700;
+  }
+  .principal__titledos {
+    padding-top: 4.4rem;
+    font-size: 2rem;
+  }
+  .principal__text {
+    padding-top: 5.5rem;
+    font-size: 1.2rem;
+  }
+  .principal__online {
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  .principal__online-text {
+    padding-top: 5.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* carousel */
+.sectionCarousel {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* media quaries carousel */
+@media (min-width: 1656px) {
+  .carousel-item {
+    height: 100vh;
+  }
+}
+@media (max-width: 1656px) {
+  .carousel-item {
+    margin-top: 6rem;
+  }
+}
+// banner
+@media (max-width: 767px) {
+  .emblema-mario {
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 4rem;
+  }
+}
