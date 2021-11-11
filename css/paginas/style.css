@@ -1,10 +1,9 @@
-/* Error: Undefined variable.
- *    ,
- * 13 |   color: $colorgris;
- *    |          ^^^^^^^^^^
- *    '
- *   scss\paginas\_globals.scss 13:10  @import
- *   scss\paginas\style.scss 1:9       root stylesheet */
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 9 | @import "fuentes";
+ *   |         ^^^^^^^^^
+ *   '
+ *   scss\paginas\style.scss 9:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 13 \2502    color: $colorgris;\d\a    \2502           ^^^^^^^^^^\a    \2575 \a   scss\\paginas\\_globals.scss 13:10  @import\a   scss\\paginas\\style.scss 1:9       root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 9 \2502  @import \"fuentes\";\d\a   \2502          ^^^^^^^^^\a   \2575 \a   scss\\paginas\\style.scss 9:9  root stylesheet";
 }

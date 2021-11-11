@@ -1,3 +1,10 @@
+// fonts
+$fuentePrincipal: "Roboto", sans-serif;
+
+// colores
+$colorPrincipal: #eb0d0d;
+$colorgris: #797979;
+
 * {
   margin: 0;
   padding: 0;
@@ -12,10 +19,3 @@ body {
   font-family: "roboto", sans-serif;
   color: $colorgris;
 }
-
-// fonts
-$fuentePrincipal: "Roboto", sans-serif;
-
-// colores
-$colorPrincipal: #eb0d0d;
-$colorgris: #797979;
