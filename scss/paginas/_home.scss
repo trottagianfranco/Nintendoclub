@@ -26,7 +26,6 @@
   padding-top: 11rem;
   padding-bottom: 8rem;
   font-family: $fuentePrincipal;
-  color: $colorgris;
   .principal__title {
     font-size: 5rem;
     color: $colorPrincipal;
@@ -36,18 +35,22 @@
   .principal__titledos {
     padding-top: 4.4rem;
     font-size: 2rem;
+    color: $colorgris;
   }
   .principal__text {
     padding-top: 5.5rem;
     font-size: 1.2rem;
+    color: $colorgris;
   }
   .principal__online {
     padding-top: 3rem;
     font-size: 2rem;
+    color: $colorgris;
   }
   .principal__online-text {
     padding-top: 5.5rem;
     font-size: 1.2rem;
+    color: $colorgris;
   }
 }
 
