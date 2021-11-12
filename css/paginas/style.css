@@ -74,8 +74,8 @@ body {
 
 /* carousel */
 .sectionCarousel {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 /* media quaries carousel */
@@ -101,6 +101,7 @@ body {
 }
 .footer .footer__text {
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 .footer ul {
   list-style: none;
