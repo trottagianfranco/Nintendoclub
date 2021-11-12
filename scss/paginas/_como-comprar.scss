@@ -16,6 +16,9 @@
 .card-comprar {
   margin-top: 6rem;
 }
+.card {
+  box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.5);
+}
 .card-body-comprar {
   margin-top: 2rem;
   .card-title {
@@ -23,6 +26,7 @@
   }
   .card-text {
     color: white;
+    font-family: $fuentePrincipal;
   }
 }
 // iframe google maps
@@ -34,4 +38,15 @@
 }
 .personajes1 {
   padding-top: 9.8rem;
+}
+@media (max-width: 767px) {
+  .card {
+    box-shadow: 0px 25px 15px 0px rgba(0, 0, 0, 0.5);
+  }
+  .card-2 {
+    margin-top: 5rem;
+  }
+  .personajes1 {
+    width: 500rem;
+  }
 }

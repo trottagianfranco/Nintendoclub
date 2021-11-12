@@ -21,6 +21,9 @@
 
 .productos-container {
   margin-top: 110px !important;
+  .card-col {
+    padding-top: 4rem;
+  }
   .card-game {
     border: none;
     outline: none;
@@ -50,4 +53,13 @@
   color: $colorPrincipal;
   font-size: 1.5rem;
   padding-bottom: 1rem;
+}
+@media (max-width: 991px) {
+  .name__card {
+    font-size: 1rem;
+    padding-top: 2rem;
+  }
+  .card-col {
+    padding-top: 4rem;
+  }
 }
