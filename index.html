@@ -25,8 +25,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/paginas/style.css" />
-    <link rel="stylesheet" href="./css/custom.css" />
     <title>Nintendo Club | Inicio</title>
   </head>
   <body>
@@ -197,7 +197,10 @@
               ¡Gracias por su visita!
             </h3>
           </div>
-          <div class="col-md-4 text-start emblema-mario d-flex">
+          <div
+            class="col-md-4 text-start emblema-mario d-flex"
+            data-aos="fade-up"
+          >
             <img
               src="./img/emblema-mario.png"
               alt="Emblema Mario"
@@ -294,5 +297,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
