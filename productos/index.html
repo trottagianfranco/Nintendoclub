@@ -4,23 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
     <link
       rel="icon"
       type="image/png"
       href="../img/favicon.png"
       sizes="128x128"
     />
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- seo -->
     <meta name="description" content="Todas las novedades de Videojuegos y Accesorios para NINTENDO SWITCH">
     <meta name="keywords" content=" videojuegos, nintendo switch, metroid, get it together, mario party, ori, accesorios, joy con, pro controller, micro sd">
     <!-- fin del seo -->
+    <!-- css sass -->
     <link rel="stylesheet" href="../css/paginas/style.css" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Nintendo Club | Productos</title>
   </head>
   <body>
@@ -30,7 +36,9 @@
         <div class="container-fluid">
           <div class="navbar__logo">
             <a class="navbar-brand" href="../index.html"
-              ><img src="../img/nintendologo.png" alt="" class="navbar__logo-img img-fluid"
+              ><img src="../img/nintendologo.png" alt="" class="navbar__logo-img img-fluid" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="600"
             /></a>
           </div>
           <button
@@ -105,7 +113,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h4 class="productos__title ">VideoJuegos</h4>
+                <h4 class="productos__title" data-aos="flip-up">VideoJuegos</h4>
             </div>
         </div>
     </div>
@@ -223,7 +231,7 @@
     <div class="container ">
         <div class="row">
             <div class="col text-center">
-                <h4 class="productos__title ">Accesorios</h4>
+                <h4 class="productos__title" data-aos="flip-up">Accesorios</h4>
             </div>
         </div>
     </div>
@@ -387,5 +395,10 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -13,19 +13,23 @@
       name="keywords"
       content="nintendo club, tienda, online, juegos, descargá, nintendo eShop, catálogo, nintendo switch, bienvenidos, digitales "
     />
+    <!-- favicon -->
     <link
       rel="icon"
       type="image/png"
       href="../img/favicon.png"
       sizes="128x128"
     />
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- css sass -->
     <link rel="stylesheet" href="./css/paginas/style.css" />
     <title>Nintendo Club | Inicio</title>
   </head>
@@ -41,6 +45,9 @@
                 src="./img/nintendologo.png"
                 alt="Nintendo Club logo"
                 class="navbar__logo-img img-fluid"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="600"
             /></a>
           </div>
           <button
@@ -187,13 +194,22 @@
       <div class="banner text-center container-fluid">
         <div class="row">
           <div class="col-md-8 flex-column">
-            <h2 class="banner__text text-start title-uno text-center">
+            <h2
+              class="banner__text text-start title-uno text-center"
+              data-aos="fade-right"
+            >
               Bienvenidos a
             </h2>
-            <h1 class="banner__text text-start title-dos text-center">
+            <h1
+              class="banner__text text-start title-dos text-center"
+              data-aos="fade-left"
+            >
               Nintendo Club
             </h1>
-            <h3 class="banner__text text-start title-tres text-center">
+            <h3
+              class="banner__text text-start title-tres text-center"
+              data-aos="fade-right"
+            >
               ¡Gracias por su visita!
             </h3>
           </div>
@@ -214,7 +230,7 @@
       <section class="principal">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 principal__coluno">
+            <div class="col-lg-6 principal__coluno" data-aos="flip-left">
               <h2 class="principal__title text-center">Tienda Nintendo</h2>
               <h3 class="principal__titledos text-center">
                 Compra juegos fisicos y diviértete
@@ -224,7 +240,10 @@
                 entre nuestro cátalogo y hace tu pedido.
               </p>
             </div>
-            <div class="col-lg-6 text-center r principal__coldos">
+            <div
+              class="col-lg-6 text-center r principal__coldos"
+              data-aos="flip-right"
+            >
               <img
                 src="./img/online-logo.gif"
                 alt="Nintendo Online"

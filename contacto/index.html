@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
     <link
       rel="icon"
       type="image/png"
       href="../img/favicon.png"
       sizes="128x128"
     />
+    <!-- css sass -->
     <link rel="stylesheet" href="../css/paginas/style.css" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,6 +44,9 @@
                 src="../img/nintendologo.png"
                 alt=""
                 class="navbar__logo-img img-fluid"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="600"
             /></a>
           </div>
           <button
@@ -136,7 +144,11 @@
         <hr class="barra-contacto container" />
         <div class="container">
           <div class="row horario-container">
-            <div class="col-md-8 horario">
+            <div
+              class="col-md-8 horario"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <h4 class="horario__title mt-5">
                 Hace el pedido por nuestra página
               </h4>
@@ -190,6 +202,10 @@
                 src="../img/mario-vertical.png"
                 alt="Mario bros"
                 class="mario-vertical img-fluid"
+                data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="1000"
               />
             </div>
           </div>
@@ -310,5 +326,10 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
