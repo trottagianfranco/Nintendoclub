@@ -11449,5 +11449,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.error-container {
+  margin-top: 20rem;
+  margin-bottom: 18.3rem;
+}
+.error-container .jumbotron {
+  border-radius: 60px;
+}
 
 /*# sourceMappingURL=style.css.map */
